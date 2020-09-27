@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rightroad"
+        android:layout_width="297dp"
+        android:layout_height="327dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/ic_asset_7" />
+
+    <ImageView
+        android:id="@+id/youth"
+        android:layout_width="79dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/ic_asset_2" />
+
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ic_asset_5" />
+
+
+
+    <ImageView
+        android:id="@+id/leftroad"
+        android:layout_width="221dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/ic_asset_8" />
+    <ImageView
+        android:id="@+id/road"
+        android:layout_width="221dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/ic_asset_9" />
+
+    <ImageView
+        android:id="@+id/warrior"
+        android:layout_width="142dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/ic_asset_11" />
+
+
+    <ImageView
+        android:id="@+id/champion"
+        android:layout_width="89dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/ic_asset_12" />
+    <ImageView
+        android:id="@+id/angel"
+        android:layout_width="91dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/ic_asset_10" />
+
+
+</RelativeLayout>
